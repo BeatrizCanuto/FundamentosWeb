@@ -18,13 +18,24 @@
 
 <body style="background-color: rgb(182, 195, 206);">
 
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
     <nav>
         <button onclick="document.location='index.html'">Home</button>
         <button onclick="document.location='quadros.html'">Quadros</button>
     </nav>
 
     <img src="assets/img/banner van gogh.png" alt="Banner Van Gogh" style="width: 1300px;height: 450px;">
-    
+
     <h2 style="text-align:center;">História</h2>
 
     <pre><img src="https://i.pinimg.com/564x/e5/ea/5e/e5ea5ebd2a144df64fcca2723ce499e9.jpg" alt="" style="width:150px;height:230px;"align="left">
